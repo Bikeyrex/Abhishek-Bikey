@@ -1,0 +1,45 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+li:hover {
+  background: var(--main-blue);
+}
+
+.nav-list a {
+  color: var(--main-white);
+  padding: 2rem;
+  font-size: 2.2rem;
+  display: block;
+}
+
+nav {
+  background-color: #be3144;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
